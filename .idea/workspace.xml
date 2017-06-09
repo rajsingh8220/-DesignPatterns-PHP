@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="785b155d-b4be-4ed1-9297-80ae528a2705" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Builder/main.php" afterPath="$PROJECT_DIR$/Builder/main.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Factory/main.php" afterPath="$PROJECT_DIR$/Factory/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Singleton/BookBorrower.php" afterPath="$PROJECT_DIR$/Singleton/BookBorrower.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Singleton/BookSingleton.php" afterPath="$PROJECT_DIR$/Singleton/BookSingleton.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Singleton/main.php" afterPath="$PROJECT_DIR$/Singleton/main.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,16 +16,6 @@
     <leaf>
       <file leaf-file-name="OReillyBookFactory.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Factory/OReillyBookFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractPHPBook.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Factory/AbstractPHPBook.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
@@ -109,11 +94,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Singleton/main.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
               <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+              <folding>
+                <element signature="e#6#88#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Factory/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
               </folding>
@@ -141,10 +138,10 @@
         <option value="$PROJECT_DIR$/Factory/SamsPHPBook.php" />
         <option value="$PROJECT_DIR$/Builder/AbstractPageBuilder.php" />
         <option value="$PROJECT_DIR$/Builder/main.php" />
-        <option value="$PROJECT_DIR$/Factory/main.php" />
         <option value="$PROJECT_DIR$/Singleton/BookBorrower.php" />
         <option value="$PROJECT_DIR$/Singleton/BookSingleton.php" />
         <option value="$PROJECT_DIR$/Singleton/main.php" />
+        <option value="$PROJECT_DIR$/Factory/main.php" />
       </list>
     </option>
   </component>
@@ -254,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.main.php (1)">
+  <component name="RunManager" selected="PHP Script.main.php">
     <configuration default="false" name="main.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Factory/main.php">
       <method />
     </configuration>
@@ -328,8 +325,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.main.php (1)" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.main.php" />
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.main.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.main.php (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -343,12 +340,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496966850176</updated>
-      <workItem from="1496966851368" duration="7318000" />
+      <workItem from="1496966851368" duration="7475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7318000" />
+    <option name="totallyTimeSpent" value="7475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -398,16 +395,6 @@
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -512,6 +499,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>
