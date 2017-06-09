@@ -6,7 +6,7 @@
  * Time: 11:23 AM
  */
 
-namespace factory;
+//namespace factory;
 
 class OReillyMySQLBook extends AbstractMySQLBook {
     private $author;

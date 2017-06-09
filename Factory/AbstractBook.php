@@ -6,7 +6,7 @@
  * Time: 11:22 AM
  */
 
-namespace factory;
+//namespace factory;
 
 abstract class AbstractBook {
     abstract function getAuthor();

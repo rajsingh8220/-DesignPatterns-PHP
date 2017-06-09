@@ -6,7 +6,7 @@
  * Time: 11:24 AM
  */
 
-namespace factory;
+//namespace factory;
 
 abstract class AbstractPHPBook extends AbstractBook {
     private $subject = "PHP";

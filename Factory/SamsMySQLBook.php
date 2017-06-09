@@ -6,7 +6,7 @@
  * Time: 11:24 AM
  */
 
-namespace factory;
+//namespace factory;
 
 class SamsMySQLBook extends AbstractMySQLBook {
     private $author;

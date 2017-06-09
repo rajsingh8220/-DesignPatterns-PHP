@@ -6,7 +6,7 @@
  * Time: 7:09 PM
  */
 
-namespace factory;
+//namespace factory;
 
 abstract class AbstractBookFactory {
     abstract function makePHPBook();

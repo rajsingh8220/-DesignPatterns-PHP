@@ -6,7 +6,7 @@
  * Time: 7:10 PM
  */
 
-namespace factory;
+//namespace factory;
 
 class SamsBookFactory extends AbstractBookFactory {
     private $context = "Sams";

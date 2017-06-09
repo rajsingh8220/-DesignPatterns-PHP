@@ -6,7 +6,7 @@
  * Time: 11:24 AM
  */
 
-namespace factory;
+//namespace factory;
 
 class OReillyPHPBook extends AbstractPHPBook {
     private $author;

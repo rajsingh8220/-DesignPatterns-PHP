@@ -6,7 +6,7 @@
  * Time: 11:23 AM
  */
 
-namespace factory;
+//namespace factory;
 
 
 abstract class AbstractMySQLBook extends AbstractBook {

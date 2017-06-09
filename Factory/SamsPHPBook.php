@@ -6,7 +6,7 @@
  * Time: 11:25 AM
  */
 
-namespace factory;
+//namespace factory;
 
 class SamsPHPBook extends AbstractPHPBook {
     private $author;
