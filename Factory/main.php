@@ -5,29 +5,27 @@
  * Date: 6/9/2017
  * Time: 11:31 AM
  */
-//namespace factory;
 
-// we've writen this code where we need
 function __autoload($classname) {
     $filename = $classname.".php";
-    include_once($filename);
+    require_once $filename;
 }
 
 
 
-writeln('BEGIN TESTING ABSTRACT FACTORY PATTERN');
+echo('BEGIN TESTING ABSTRACT FACTORY PATTERN\n');
 writeln('');
 
-writeln('testing OReillyBookFactory');
+echo ('testing OReillyBookFactory\n');
 $bookFactoryInstance = new OReillyBookFactory;
 testConcreteFactory($bookFactoryInstance);
 writeln('');
 
-writeln('testing SamsBookFactory');
+writeln('testing SamsBookFactory\n');
 $bookFactoryInstance = new SamsBookFactory;
 testConcreteFactory($bookFactoryInstance);
 
-writeln("END TESTING ABSTRACT FACTORY PATTERN");
+writeln("END TESTING ABSTRACT FACTORY PATTERN\n");
 writeln('');
 
 function testConcreteFactory($bookFactoryInstance)

@@ -7,7 +7,13 @@
  */
 
 
-writeln('BEGIN TESTING SINGLETON PATTERN');
+function __autoload($classname) {
+    $filename = $classname.".php";
+    require_once $filename;
+}
+
+
+echo "BEGIN TESTING SINGLETON PATTERN\n";
 writeln('');
 
 $bookBorrower1 = new BookBorrower();
@@ -37,6 +43,6 @@ writeln('');
 writeln('END TESTING SINGLETON PATTERN');
 
 function writeln($line_in) {
-    echo $line_in.'<br/>';
+    echo $line_in."\n";
 }
 ?>

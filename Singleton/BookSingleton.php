@@ -6,7 +6,6 @@
  * Time: 11:42 AM
  */
 
-namespace singleton;
 
 class BookSingleton {
     private $author = 'Gamma, Helm, Johnson, and Vlissides';

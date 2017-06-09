@@ -6,7 +6,6 @@
  * Time: 11:42 AM
  */
 
-namespace singleton;
 
 class BookBorrower {
     private $borrowedBook;
