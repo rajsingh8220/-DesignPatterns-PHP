@@ -2,11 +2,12 @@
 
 /**
  * Created by PhpStorm.
- * User: Sunny
+ * User: Shailesh
  * Date: 6/12/2017
  * Time: 6:19 PM
  */
-class AbstractPageDirector
-{
-
+abstract class AbstractPageDirector {
+    abstract function __construct(AbstractPageBuilder $builder_in);
+    abstract function buildPage();
+    abstract function getPage();
 }
