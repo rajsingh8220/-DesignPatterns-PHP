@@ -1,5 +1,5 @@
 # DesignPatterns-PHP
-Popular Design Patterns
+Design Patterns
 
 * Factory
 * Singleton
